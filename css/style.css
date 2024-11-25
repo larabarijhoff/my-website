@@ -1,0 +1,12 @@
+
+@import url("componets/container.css");
+@import url("componets/banner.css");
+
+body{
+    color: white;
+    margin: 0;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
