@@ -2,18 +2,27 @@
 
 @import url("componets/container.css");
 @import url("componets/banner.css");
+@import url("componets/card.css");
 
 body{
-    color: white;
     margin: 0;
 }
 h1, h2{
     font-family: 'Source Sans 3', sans-serif;
     letter-spacing: 3px;
+    color: black;
 }
 
 p{
     font-family: 'Merriweather', serif;
     font-style: normal;
+    color: black;
+}
 
+#img-holding{
+    width: 600px;
+}
+
+.article{
+    background-color: aqua;
 }
