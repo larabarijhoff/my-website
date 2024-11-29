@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    font-size: 20px;
+    font-family: 'Source Source Sans 3', sans-serif;
+    font-weight: 700;
+    color: white;
+    background-color: #E1306C; /* Color de Instagram */
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.btn:hover {
+    background-color: #C13584; /* Color más oscuro al pasar el cursor */
+}
