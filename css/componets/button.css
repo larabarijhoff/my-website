@@ -18,3 +18,20 @@
 .btn:hover {
     background-color: #203920; 
 }
+
+/* Responsive Design */
+@media (max-width: 960px) {
+    .btn {
+      font-size: medium;
+    }
+}
+@media (max-width: 720px) {
+    .btn {
+        font-size: small;
+    }
+}
+@media (max-width: 540px) {
+    .btn {
+        font-size: x-small;
+    }
+}

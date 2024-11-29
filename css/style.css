@@ -77,3 +77,21 @@ p{
     width: 80px;
     margin: 10px;
 }
+
+@media (max-width: 960px) {
+
+    .pic-grid {
+      width: 200px;
+    }
+    #img-holding{
+        width: 400px;
+    }
+}
+@media (max-width: 720px) {
+    .pic-grid {
+      width: 150px;
+    }
+    #img-holding{
+        width: 300px;
+    }
+}

@@ -50,7 +50,7 @@
     }
 }
 /* Responsive Design */
-@media (max-width: 720px) {
+@media (max-width: 950px) {
     .banner h1 {
       margin-right: 0;
     }
@@ -60,5 +60,8 @@
       }
     .banner{
         height: auto;
+    }
+    .banner .btn{
+        margin-right: 0;
     }
 }

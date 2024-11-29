@@ -30,7 +30,7 @@
 }
 
 /* Resposive Design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .card {
         flex-basis: 100%;  
     }
