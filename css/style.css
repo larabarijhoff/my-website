@@ -7,6 +7,7 @@
 
 body{
     margin: 0;
+    background-color: #2A3633;
 }
 h1, h2, h3{
     font-family: 'Source Sans 3', sans-serif;
@@ -18,6 +19,7 @@ h3{
     text-align: center;
     font-weight: 550;
     line-height: 1.6;
+    margin-top: 40px;
 }
 
 p{

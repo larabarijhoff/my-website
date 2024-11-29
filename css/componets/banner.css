@@ -2,7 +2,6 @@
     background-image:  linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/background.jpeg");
     background-size: cover;
     background-position: center;
-    height: 80vh;
     
 }
 
@@ -25,6 +24,10 @@
     margin-right: 500px;
     margin-bottom: 0;
     color: white;
+}
+
+.banner .btn{
+    margin-right: 740px;
 }
 
 @media (max-width: 720px) {
