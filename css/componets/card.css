@@ -33,8 +33,12 @@
 @media (max-width: 800px) {
     .card {
         flex-basis: 100%;  
+        padding: 20px;
     }
     .row{
         flex-wrap: wrap;
+    }
+    .card p{
+        font-size: small;
     }
 }
