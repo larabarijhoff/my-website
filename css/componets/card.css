@@ -4,13 +4,12 @@
     justify-content: center;
 }
 
-
 .row{
     display: flex;
     flex-direction: row;
-    border-top: 3px solid #ff5733; /* Color y grosor del borde superior */
+    border-top: 1.5px solid white; 
+    border-bottom: 1.5px solid white;
     flex-wrap: no-wrap;
-    /* flex-basis: 800px; */
     justify-content: space-between;
 }
 
@@ -19,23 +18,21 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
-    background-color: #f9f9f9; /* Color de fondo opcional */
-    /* flex-wrap: wrap; */
     flex-basis: 48%;
-    
 }
 
-
+.cards h2{
+    color: #2A3633;
+}
 
 .card p{
     text-align: justify;
 }
 
-/* Media query para pantallas más pequeñas */
+/* Resposive Design */
 @media (max-width: 768px) {
     .card {
-        flex-basis: 100%;  /* En pantallas pequeñas, cada tarjeta ocupa el ancho completo */
+        flex-basis: 100%;  
     }
     .row{
         flex-wrap: wrap;

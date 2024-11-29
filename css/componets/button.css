@@ -5,14 +5,16 @@
     font-size: 20px;
     font-family: 'Source Source Sans 3', sans-serif;
     font-weight: 700;
-    color: white;
-    background-color: #E1306C; /* Color de Instagram */
+    letter-spacing: 2px;
+    color: #E5D8D0;
+    background-color:  #1D5245; 
     text-decoration: none;
     text-align: center;
     transition: background-color 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 .btn:hover {
-    background-color: #C13584; /* Color más oscuro al pasar el cursor */
+    background-color: #203920; 
 }
